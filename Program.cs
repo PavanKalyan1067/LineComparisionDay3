@@ -27,10 +27,9 @@ namespace LineComparisonProblem
             }
             CheckEquality obj1 = new CheckEquality();
             obj1.ComputeEquals();
-
-
         }
     }
+
     public class FindingLength
     {
         public void LineLength(int x1, int y1, int x2, int y2, int i)
@@ -40,10 +39,9 @@ namespace LineComparisonProblem
             string value = Convert.ToString(Math.Round(sqrt, 2));
             Console.WriteLine("length of line is:" + value);
             InitializeArray.InsertingValue(value, i);
-
-
         }
     }
+
     public class CheckEquality
     {
         public void ComputeEquals()
@@ -59,6 +57,7 @@ namespace LineComparisonProblem
             }
         }
     }
+
 
     public static class InitializeArray
     {
