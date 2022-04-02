@@ -1,6 +1,7 @@
 ﻿using System;
+using LineComparisionProblems;
 
-namespace LineComparisonProblem
+namespace LineComparisonProblems
 {
     class Program
     {
@@ -8,6 +9,10 @@ namespace LineComparisonProblem
         public static int x1, x2, y1, y2;
         static void Main(string[] args)
         {
+            LineComparing lineComparing = new LineComparing();
+            lineComparing.CompareLines();
+
+
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Enter value for coordinate \"x1\" ");
